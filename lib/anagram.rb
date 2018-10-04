@@ -11,6 +11,7 @@ class Anagram
       if n == @word.chars
         matches << n
       end
+    }
       matches
   end
   
