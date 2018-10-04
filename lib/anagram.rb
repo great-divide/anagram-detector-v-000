@@ -23,5 +23,5 @@ class Anagram
   
   
 end
-listen = Anagram.new("listen")
-listen.match(%w(inlets banana))
+# listen = Anagram.new("listen")
+# listen.match(%w(inlets banana))
