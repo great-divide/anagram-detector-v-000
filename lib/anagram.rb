@@ -5,9 +5,9 @@ class Anagram
   end
   
   def match(array)
-    matches = []
-    if array.include?(@word)
-      matches << @word
+    matches = @word.chars
+    array.each { |n|
+      if n.include?()
   end
   
   
