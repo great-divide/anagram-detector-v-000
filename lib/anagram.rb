@@ -11,7 +11,7 @@ class Anagram
     matches = []
     array.each { |n|
       letters = n.chars
-      binding.pry
+      # binding.pry
       if letters.sort == @word.split.sort
         matches << n.join
         
@@ -23,5 +23,5 @@ class Anagram
   
   
 end
-listen = Anagram.new("listen")
-listen.match(%w(inlets banana))
+# listen = Anagram.new("listen")
+# listen.match(%w(inlets banana))
