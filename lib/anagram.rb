@@ -1,3 +1,4 @@
+require 'pry'
 class Anagram
   
   attr_accessor :word
@@ -20,3 +21,5 @@ class Anagram
   
   
 end
+listen = Anagram.new
+binding.pry
