@@ -11,7 +11,7 @@ class Anagram
     matches = []
     array.each { |n|
       letters = n.chars.sort
-      binding.pry
+      # binding.pry
       if letters == @word.chars.sort
         matches << n.join
         # binding.pry
