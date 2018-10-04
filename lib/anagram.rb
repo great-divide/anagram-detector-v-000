@@ -14,7 +14,7 @@ class Anagram
       # binding.pry
       if letters.sort == @word.split.sort
         matches << n.join
-        
+        binding.pry
       end
     }
       matches
@@ -23,5 +23,5 @@ class Anagram
   
   
 end
-# listen = Anagram.new("listen")
-# listen.match(%w(inlets banana))
+listen = Anagram.new("listen")
+listen.match(%w(inlets banana))
