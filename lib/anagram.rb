@@ -11,10 +11,10 @@ class Anagram
     matches = []
     array.each { |n|
       letters = n.chars.sort
-      # binding.pry
+      binding.pry
       if letters == @word.split.sort
         matches << n.join
-        binding.pry
+        # binding.pry
       end
     }
       matches
