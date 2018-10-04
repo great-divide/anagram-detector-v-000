@@ -21,5 +21,5 @@ class Anagram
   
   
 end
-listen = Anagram.new
+listen = Anagram.new("listen")
 binding.pry
