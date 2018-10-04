@@ -1,13 +1,17 @@
 class Anagram
   
+  attr_accessor :word
+  
   def initialize(word)
-    @word = word
   end
   
   def match(array)
-    matches = @word.chars
+    matches = []
     array.each { |n|
-      if n.include?()
+      if n == @word.chars
+        matches << n
+      end
+      matches
   end
   
   
