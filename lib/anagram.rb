@@ -13,7 +13,7 @@ class Anagram
       letters = n.chars.sort
       # binding.pry
       if letters == @word.chars.sort
-        matches << n.join
+        matches << n
         # binding.pry
       end
     }
