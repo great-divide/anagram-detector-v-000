@@ -12,7 +12,7 @@ class Anagram
     array.each { |n|
       letters = n.chars.sort
       binding.pry
-      if letters == @word.split.sort
+      if letters == @word.chars.sort
         matches << n.join
         # binding.pry
       end
