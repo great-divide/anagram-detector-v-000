@@ -10,7 +10,7 @@ class Anagram
     matches = []
     array.each { |n|
       letters = n.split
-      if letters == @word.split.sort
+      if letters.sort == @word.split.sort
         matches << n.join
       end
     }
